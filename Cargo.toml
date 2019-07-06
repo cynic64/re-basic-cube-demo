@@ -5,7 +5,8 @@ authors = ["cynic64 <f3bl@gmx.com>"]
 edition = "2018"
 
 [dependencies]
-render-engine = { path = "../render-engine" }
+# render-engine = { path = "../render-engine" }
+render-engine = { git = "https://github.com/cynic64/render-engine", rev = "9fa8722b44a45d98e7b8fe0fc199b0a5da6c48b3" }
 
 [profile.release]
 debug = true
